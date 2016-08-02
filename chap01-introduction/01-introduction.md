@@ -1,4 +1,4 @@
-# 1. Inroduction
+# 1. Introduction
 
 ## Types in Computer Science
 
