@@ -26,3 +26,25 @@ However, the most popular and best established lightweight formal methods are
 > certain program behaviors by classifying phrases according to the kinds of
 > values they compute.
 
+
+## What Type Systems Are Good For
+
+### Detecting Errors
+Allows early detection of some programming errors. It is always less costly
+to fix errors early. Errors can also be pinpointed more accurately during
+typechecking. Deeper conceptual errors will often manifest as inconsistencies
+at the level of types.
+
+A typechecker can also be an invaluable *maintenance tool*. For example, in
+order to change the definition of a complex data structure, one need not
+search by hand all the places in a large program where code involving this
+structure needs to be fixed.
+
+### Abstraction
+
+### Documentation
+
+### Language Safety
+
+### Efficiency
+
