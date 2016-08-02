@@ -41,6 +41,10 @@ search by hand all the places in a large program where code involving this
 structure needs to be fixed.
 
 ### Abstraction
+Enforces disciplined programming. Types show up in the interfaces of modules
+(and classes). In SML and OCaml, the interface itself is the "type" for the
+module that implements it. Modules implementing clear interfaces leads to a
+more abstract style of design, which facilitates better code maintenance.
 
 ### Documentation
 
