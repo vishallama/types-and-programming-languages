@@ -47,6 +47,8 @@ module that implements it. Modules implementing clear interfaces leads to a
 more abstract style of design, which facilitates better code maintenance.
 
 ### Documentation
+Types provide useful documentation that always remains current and never gets
+outdated, since it gets checked during every run of the compiler.
 
 ### Language Safety
 
