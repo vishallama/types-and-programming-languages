@@ -70,3 +70,13 @@ The ML Kit Compiler uses a powerful *region inference* algorithm to replace
 most (in some programs, all) of the need for garbage collection by
 stack-based memory management.
 
+### Further Applications
+ - Computer and Network Security.
+ - Type checking and inference algorithms can be applied in conversion
+   utilities and alias analysis.
+ - Type systems (based on dependent types) are used in proof assistants, such
+   as Nuprl, Coq, and Alf.
+ - Use in web metadata.
+ - In computational linguistics, where typed lambda-calculi form the basis for
+   formalisms such as *categorial grammar*.
+
