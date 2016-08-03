@@ -100,3 +100,13 @@ abstract data types, module systems, and subtyping, were introduced. At time
 same time, connections between the type systems found in programming
 languages and those studied in mathematical logic were found.
 
+## Related Reading
+A short list of related reading:
+
+  - *Lambda-Calculus and Combinators, An Introduction*, Hindley and Seldin
+  - *A Theory of Objects*, Abadi and Cardelli
+  - *Foundations of Object-Oriented Languages: Types and Semantics*, Bruce
+  - *Basic Category Theory for Computer Scientists*, Pierce
+  - *Proofs and Types*, Girard, Lafont, and Taylor
+  - *Type Theory and Functional Programming*, Thompson
+
