@@ -64,4 +64,9 @@ static type system.
 | **Unsafe**   | C, C++, etc.             |                             |
 
 ### Efficiency
+Type systems allow the compiler to distinguish between different kinds of
+data, and thus permits the generation of appropriate machine instructions.
+The ML Kit Compiler uses a powerful *region inference* algorithm to replace
+most (in some programs, all) of the need for garbage collection by
+stack-based memory management.
 
