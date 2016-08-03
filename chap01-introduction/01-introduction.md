@@ -51,6 +51,16 @@ Types provide useful documentation that always remains current and never gets
 outdated, since it gets checked during every run of the compiler.
 
 ### Language Safety
+*A safe language is one that protects its own abstractions*. Language safety
+is not the same thing as type safety. Language safety can be achieved by
+static checking and also by run-time checks that trap nonsensical operations
+just at the moment when the are attempted and stop the program or raise an
+exception. For instance, Scheme is a safe language, even though it has no
+static type system.
+
+|            | **Statically checked**  | **Dynamically checked**  |
+| **Safe**   | ML, Haskell, Java, etc. | Lisp, Scheme, Perl, etc. |
+| **Unsafe** | C, C++, etc.            |                          |
 
 ### Efficiency
 
