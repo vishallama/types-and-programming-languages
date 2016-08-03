@@ -91,3 +91,12 @@ languages in the ML family require very minimal type annotations from the
 programmer, letting the type inference methods recover the necessary
 information.
 
+## Capsule History
+The earliest type systems were used to make very simple distinctions between
+integer and floating point representations of numbers (e.g. in Fortran.) In
+the 50s and 60s, his was extended to  structured data and higher-order
+functions. In the 70s, even richer concepts, such as parametric polymorphism,
+abstract data types, module systems, and subtyping, were introduced. At time
+same time, connections between the type systems found in programming
+languages and those studied in mathematical logic were found.
+
