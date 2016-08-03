@@ -80,3 +80,14 @@ stack-based memory management.
  - In computational linguistics, where typed lambda-calculi form the basis for
    formalisms such as *categorial grammar*.
 
+## Type Systems and Language Design
+Ideally, language design should go hand-in-hand with type system design. In
+typed languages, the type system itself is often taken as the foundation of
+the design. It is true that the concrete syntax of typed languages tends to
+be more complicated than that of untyped languages, because type annotations
+must be taken into account. However, a well-designed statically typed
+language will never require huge amounts of type annotations. For instance,
+languages in the ML family require very minimal type annotations from the
+programmer, letting the type inference methods recover the necessary
+information.
+
