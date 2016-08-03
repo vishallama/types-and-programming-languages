@@ -58,7 +58,8 @@ just at the moment when the are attempted and stop the program or raise an
 exception. For instance, Scheme is a safe language, even though it has no
 static type system.
 
-|            | **Statically checked**  | **Dynamically checked**  |
+|            | Statically checked      | Dynamically checked      |
+-------------------------------------------------------------------
 | **Safe**   | ML, Haskell, Java, etc. | Lisp, Scheme, Perl, etc. |
 | **Unsafe** | C, C++, etc.            |                          |
 
