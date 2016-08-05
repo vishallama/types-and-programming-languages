@@ -2,7 +2,7 @@
 
 ## Sets, Relations, and Functions
 Definitions to know:
-  - **Set**: set comprehension, empty set, set difference, set cardinality, and
+  - Set: set comprehension, empty set, set difference, set cardinality, and
     powerset of a set.
   - The set of naturals and countability of a set.
   - An *n-*th place *relation*.
@@ -49,15 +49,15 @@ the same elements, possibly in a different order.
 Proofs are ubiquitous in the theory of programming languages, and many of
 these are based on one of the following principles.
 
-### AXIOM (Principle of Ordinary Induction on Natural Numbers)
+#### AXIOM (Principle of Ordinary Induction on Natural Numbers)
 Suppose that *P* is a predicate on the natural numbers. Then:
 
 > If *P(0)*, and for all *i*, *P(i)* implies *P(i+1)*,
 > then *P(n)* holds for all *n*.
 
-### AXIOM (Principle of Complete Induction on Natural Numbers)
+#### AXIOM (Principle of Complete Induction on Natural Numbers)
 
-### AXIOM (Principle of Lexicographic Induction)
+#### AXIOM (Principle of Lexicographic Induction)
 
-### AXIOM (Principle of Structural Induction)
+#### AXIOM (Principle of Structural Induction)
 
