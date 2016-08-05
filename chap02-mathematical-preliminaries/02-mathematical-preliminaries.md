@@ -32,3 +32,16 @@ Definitions to know:
     well-founded. We sometimes omit mentioning the preorder explicitly and
     simply speak of S as a *well-founded set*.
 
+## Sequences
+A *sequence* is written by listing its elements, separated by commas. A comma
+is used as both the "cons" operation for adding an element to either end of a
+sequence and as the "append" operation on sequences. So if *a* is the sequence
+*3, 2, 1* and *b* is the sequence *5, 6*, then *0, a* denotes the sequence
+*0, 3, 2, 1*, while *a, 0* denotes *3, 2, 1, 0*, and *b, a* denotes the
+sequence *5, 6, 3, 2, 1*. The sequence of numbers from *1* to *n* is
+abbreviated *1..n*. We write *|a|* for the length of the sequence *a*. The
+empty sequence is written either as • or as a blank.
+
+One sequence is said to be a *permutation* of another if it contains exactly
+the same elements, possibly in a different order.
+
