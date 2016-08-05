@@ -25,4 +25,10 @@ Definitions to know:
     contains R. Similarly, the *transitive closure* of R is the smallest
     transitive relation R' that contains R. Similar definition for *reflexive
     and transitive closure*.
+  - *Decreasing chain* defined on a preorder defined on a set S. Chains can
+    be either finite or infinite.
+  - A preorder on a set S is *well-founded* if it contains no infinite
+    decreasing chains. For example, the usual order on the natural numbers is
+    well-founded. We sometimes omit mentioning the preorder explicitly and
+    simply speak of S as a *well-founded set*.
 
