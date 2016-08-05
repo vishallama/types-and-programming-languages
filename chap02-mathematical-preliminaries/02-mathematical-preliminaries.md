@@ -45,3 +45,15 @@ empty sequence is written either as • or as a blank.
 One sequence is said to be a *permutation* of another if it contains exactly
 the same elements, possibly in a different order.
 
+## Induction
+Proofs are ubiquitous in the theory of programming languages, and many of
+these are based on one of the following principles.
+
+### AXIOM (Principle of Ordinary Induction on Natural Numbers)
+
+### AXIOM (Principle of Complete Induction on Natural Numbers)
+
+### AXIOM (Principle of Lexicographic Induction)
+
+### AXIOM (Principle of Structural Induction)
+
