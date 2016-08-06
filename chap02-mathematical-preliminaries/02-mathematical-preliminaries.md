@@ -82,4 +82,7 @@ inner induction." Induction on pairs is quite common, and induction on triples
 is sometimes useful. Induction beyond triples is rare.
 
 #### AXIOM (Principle of Structural Induction)
+*Structural induction* is useful for proofs about tree structures, such as
+terms or typing derivations. Chapter 21 shows that all these specific
+induction principles are instances f a single deeper idea.
 
