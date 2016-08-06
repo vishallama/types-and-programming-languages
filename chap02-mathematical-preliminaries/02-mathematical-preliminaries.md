@@ -69,6 +69,12 @@ numbers is defined as follows: *(m, n) <= (m', n')* iff either *m < m'* or
 else *m = m'* and *n <= n'*.
 
 #### AXIOM (Principle of Lexicographic Induction)
+Suppose that *P* is a predicate on pairs of natural numbers.
+
+> If, for each pair *(m, n)* of natural numbers,
+>   given *P(m', n')* for all *(m', n') < (m, n)*
+>   we can show *P(m, n)*,
+> then *P(m, n)* holds for all *m, n*.
 
 #### AXIOM (Principle of Structural Induction)
 
