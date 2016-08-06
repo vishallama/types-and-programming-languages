@@ -56,6 +56,12 @@ Suppose that *P* is a predicate on the natural numbers. Then:
 > then *P(n)* holds for all *n*.
 
 #### AXIOM (Principle of Complete Induction on Natural Numbers)
+Suppose that *P* is a predicate on the natural numbers. Then:
+
+> If, for each natural number *n*,
+>   given *P(i)* for all *i < n*
+>   we can show *P(n))*,
+> then *P(n)* holds for all *n*.
 
 #### AXIOM (Principle of Lexicographic Induction)
 
