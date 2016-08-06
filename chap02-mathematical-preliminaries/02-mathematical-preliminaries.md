@@ -63,6 +63,11 @@ Suppose that *P* is a predicate on the natural numbers. Then:
 >   we can show *P(n))*,
 > then *P(n)* holds for all *n*.
 
+##### Lexicographic Order
+The *lexicographic order* (or "dictionary order") on pairs of natural
+numbers is defined as follows: *(m, n) <= (m', n')* iff either *m < m'* or
+else *m = m'* and *n <= n'*.
+
 #### AXIOM (Principle of Lexicographic Induction)
 
 #### AXIOM (Principle of Structural Induction)
