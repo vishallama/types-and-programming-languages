@@ -76,5 +76,10 @@ Suppose that *P* is a predicate on pairs of natural numbers.
 >   we can show *P(m, n)*,
 > then *P(m, n)* holds for all *m, n*.
 
+The lexicographic induction principle is the basis for proofs by
+*nested induction*, where some case of an inductive proof proceeds "by an
+inner induction." Induction on pairs is quite common, and induction on triples
+is sometimes useful. Induction beyond triples is rare.
+
 #### AXIOM (Principle of Structural Induction)
 
