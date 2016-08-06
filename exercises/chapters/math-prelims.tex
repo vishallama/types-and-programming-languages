@@ -4,6 +4,14 @@
 
 \centerline {$R' = R \cup \{ (s, s) \mid s \in S \}$.}
 
-That is, $R'$ contains all the pairs in $R$ plus all pairs of the form $(s, s)$. Show that $R'$ is the reflexive closure of $R$.\\
+That is, $R'$ contains all the pairs in $R$ plus all pairs of the form
+$(s, s)$. Show that $R'$ is the reflexive closure of $R$.\\
 
-\textbf{SOLUTION}: Clearly, $R \subseteq R'$, and $R'$ is a reflexive relation on $S$. Now, suppose $R'' \subsetneq R'$ is the reflexive closure of $R$. Then, there exists $(s, t) \in R'$, for some $s, t \in S$, such that $(s, t) \notin R''$. If $s = t$, then $(s, s) \notin R''$, which is a contradiction. On the other hand, if $s \neq t$, then $(s, t) \in R \subseteq R''$, again a contradiction. We thus conclude $R$ is indeed the reflexive closure of $R$, and we are done.
+\textbf{SOLUTION}: Clearly, $R \subseteq R'$, and $R'$ is a reflexive
+ relation on $S$. Now, suppose $R'' \subsetneq R'$ is the reflexive
+ closure of $R$. Then, there exists $(s, t) \in R'$, for some
+ $s, t \in S$, such that $(s, t) \notin R''$. If $s = t$, then
+ $(s, s) \notin R''$, which is a contradiction. On the other hand, if
+ $s \neq t$, then $(s, t) \in R \subseteq R''$, again a contradiction.
+ We thus conclude $R$ is indeed the reflexive closure of $R$, and we
+ are done.
