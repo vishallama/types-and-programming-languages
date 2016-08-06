@@ -1,0 +1,156 @@
+%% Based on a TeXnicCenter-Template by Gyorgy SZEIDL.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------
+%
+\documentclass{amsbook}
+%
+%----------------------------------------------------------
+% This is a sample document for the AMS LaTeX Book or Monograph Class
+% Class options
+%       --  Body text point size:
+%                        8pt, 9pt, 10pt (default), 11pt, 12pt
+%       --  Paper size:  letterpaper (8.5x11 inch, default), a4paper
+%       --  Orientation: portrait(default), landscape
+%       --  Print side:  oneside, twoside (default)
+%       --  Quality:     final(default), draft
+%       --  Title page:  titlepage, notitlepage
+%       --  Start chapter on left:
+%                        openright (no, default), openany
+%       --  Columns:     onecolumn (default), twocolumn
+%       --  Omit extra math features:
+%                        nomath
+%       --  AMS fonts (noamasfonts available):
+%                        noamsfonts
+%       --  PSAMSfonts (fewer AMSfontsizes)
+%                        psamsfonts
+%       --  Equation numbering (equation numbers on the left is the default)
+%                        leqno (default), reqno
+%       --  Equation centering (equations centered is the default)
+%                        centeredtags (default}, tbtags (top, bottom)
+%       --  Displayed equations (centered is the default)
+%                        fleqn (flush left)
+% For instance the command
+%          \documentclass[a4paper,12p,reqno]{amsbook}
+% ensures that the paper size is a4, fonts are typeset at the size 12p
+% and the equation numbers are on the right side.
+%
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{mathrsfs}
+\usepackage{mathtools}
+\usepackage{verbatim}
+\usepackage[pdftex, bookmarks, colorlinks=true]{hyperref}
+%----------------------------------------------------------
+\renewcommand{\thesection}{\thechapter.\arabic{section}}
+\theoremstyle{definition}
+\newtheorem{theo}{Theorem}[section]
+\newtheorem{acknowledgement}{Acknowledgement}
+\newtheorem{algorithm}[theo]{Algorithm}
+\newtheorem{axiom}[theo]{Axiom}
+\newtheorem{case}[theo]{Case}
+\newtheorem{claim}[theo]{Claim}
+\newtheorem{conclusion}[theo]{Conclusion}
+\newtheorem{condition}[theo]{Condition}
+\newtheorem{conjecture}[theo]{Conjecture}
+\newtheorem{corollary}[theo]{Corollary}
+\newtheorem{criterion}[theo]{Criterion}
+\newtheorem{definition}[theo]{Definition}
+\newtheorem{example}[theo]{Example}
+\newtheorem{exercise}[theo]{Exercise}
+\newtheorem{lemma}[theo]{Lemma}
+\newtheorem{notation}[theo]{Notation}
+\newtheorem{problem}[theo]{Problem}
+\newtheorem{proposition}[theo]{Proposition}
+\newtheorem{remark}[theo]{Remark}
+\newtheorem{solution}[theo]{Solution}
+\newtheorem{summary}[theo]{Summary}
+\newtheorem{theorem}[theo]{Theorem}
+\numberwithin{equation}{section}
+
+\theoremstyle{definition}
+\newtheorem{xca}[theo]{example}
+%-----------------------------------------------------------
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\Z}{\mathbb{Z}}
+
+\newcommand{\bA}{\mathbf{A}}
+\newcommand{\bB}{\mathbf{B}}
+\newcommand{\bC}{\mathbf{C}}
+
+\newcommand{\bu}{\mathbf{u}}
+\newcommand{\bv}{\mathbf{v}}
+\newcommand{\bw}{\mathbf{w}}
+\newcommand{\bO}{\mathbf{0}}
+
+\newcommand{\vect}[1]{\boldsymbol{#1}}
+\newcommand{\vi}{\mathbf{i}}
+\newcommand{\vj}{\mathbf{j}}
+\newcommand{\vk}{\mathbf{k}}
+\newcommand{\vectCC}[2]{\langle #1, #2 \rangle}
+\newcommand{\vectCCC}[3]{\langle #1, #2, #3 \rangle}
+\newcommand{\vectnorm}[1]{\left|\left| \mathbf{#1} \right|\right|}
+
+\newcommand{\dps}{\displaystyle}
+\newcommand{\mb}{\mathbf}
+\newcommand{\mc}{\mathcal}
+\newcommand{\mf}{\mathfrak}
+\newcommand{\tb}{\textbf}
+\newcommand{\eps}{\epsilon}
+\newcommand{\prt}{\partial}
+\newcommand{\ovl}{\overline}
+\newcommand{\unl}{\underline}
+\newcommand{\la}{\langle}
+\newcommand{\ra}{\rangle}
+\newcommand{\prtl}{\partial}
+\newcommand{\nonum}{\nonumber}
+\newcommand{\opn}{\operatorname}
+
+\newcommand{\dom}{\opn{dom}}
+\newcommand{\cod}{\opn{cod}}
+\newcommand{\lcm}{\opn{lcm}}
+\newcommand{\im}{\opn{im}}
+
+\newcommand{\catname}[1]{{\normalfont\textbf{#1}}}
+\newcommand{\Set}{\catname{Set}}
+\newcommand{\Rel}{\catname{Rel}}
+\newcommand{\MSet}{\catname{MSet}}
+\newcommand{\Grp}{\catname{Grp}}
+\newcommand{\Ab}{\catname{Ab}}
+\newcommand{\Hom}{\catname{Hom}}
+\newcommand{\Aut}{\catname{Aut}}
+
+\newcommand{\q}{\quad}
+\newcommand{\qq}{\quad \quad}
+\newcommand{\qqq}{\quad \quad \quad}
+%-----------------------------------------------------------
+\begin{document}
+\frontmatter
+\title[Solutions to exercises from `Types and Programming Languages']{Solutions to Exercises from \\
+`Types and Programming Languages'}
+%\dedicatory{Rachel Lama}
+
+\begin{abstract}
+   Solutions to exercises from the book `Types and Programming Languages'.
+\end{abstract}
+
+\maketitle
+\tableofcontents
+
+
+\chapter*{Preface}
+
+\markboth{PREFACE}{PREFACE} Solutions to exercises from the book `Types and Programming Languages'.
+
+\mainmatter
+
+\include{chapters/introduction}
+\include{chapters/math-prelims}
+
+\end{document}
